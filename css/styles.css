@@ -19,11 +19,13 @@ p {
   margin-right: 0 !important;
 }
 .navbar-brand img {
+  padding-bottom: 10px;
   padding-right: 15px;
-  width: 80px;
+  width:100px;
 }
 .nav-item {
-  margin: 0px 15px;
+  margin: 0px 15px ;
+  
 }
 /* Navigation links */
 .customNav a {
@@ -37,12 +39,15 @@ p {
 .container{
   
   padding-top: 10%;
-  max-width: 70%;
+  max-width:100%;
   align-content: center;
   justify-items: center;
   color: rgb(31, 30, 30);
+  
 }
-
+.headerTxt{
+  font-size: 30px;
+}
 footer {
 
   background-color:  rgb(224, 84, 84);
@@ -50,7 +55,7 @@ footer {
   margin-top: 50px;
   padding-top: 5%;
   color: white;
-  max-width: 100%;
+  
 }
 ul{
   display:flex;
@@ -60,10 +65,48 @@ ul{
   
   
 }
-.sectionHeading {
-  text-align: center !important;
 
-}
 a{
   color:white;
+}
+/* Cards */
+.content {
+  padding-top: 100px;
+  padding-left: 0px;
+  
+}
+.sectionHeading {
+  text-align: center;
+  
+}
+.skills  {
+  padding: 0px 30px 30px 30px;
+}
+.cardContainer {
+  text-align: center;
+  align-items: center;
+  
+}
+.cardContainer img{
+  display: block;
+  width:30%;
+  margin: auto;
+  
+}
+.card{
+  background-color: rgb(187, 181, 183);
+}
+.sideAccent {
+  background: #007bff;
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
